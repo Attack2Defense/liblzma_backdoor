@@ -1,3 +1,10 @@
+## start 
+
+文章: [史上最强供应链攻击-xz-utils后门动态调试](./史上最强供应链攻击-xz-utils后门动态调试.md)
+
+1. echo 0 > /proc/sys/kernel/randomize_va_space
+2. docker build -t lzma ./
+3. docker run --cap-add=sys_ptrace -it -p 24:22 lzma /bin/bash
 
 ## run
 
